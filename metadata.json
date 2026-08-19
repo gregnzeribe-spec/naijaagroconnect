@@ -1,0 +1,6 @@
+{
+  "name": "naijaagroconnect.com",
+  "description": "Cross-border & local produce and livestock marketplace with real-time zone pricing, farmer inventory manager, crypto/fiat escrow payments, and shipment tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

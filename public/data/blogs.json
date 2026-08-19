@@ -1,0 +1,42 @@
+{
+  "posts": [
+    {
+      "id": "blog-1",
+      "title": "Inside Dawanau: How Kano's Sesame Farmers Are Scaling for Export",
+      "excerpt": "A look at how cooperative cleaning and grading centers are helping small sesame farms meet 99.5% purity export standards.",
+      "content": "Dawanau Market in Kano has long been West Africa's largest grain market, but a quiet transformation is underway among its sesame seed farmers. By pooling resources into shared cleaning and grading equipment, smallholder cooperatives are now able to meet the strict 99.5% purity threshold demanded by export buyers in Asia and Europe.\n\nFarmers say the shift has doubled their per-ton earnings compared to selling ungraded seed locally. NaijaAgroConnect is working with three cooperatives in the region to list export-ready batches directly on the marketplace, cutting out layers of middlemen.",
+      "coverImage": "https://images.unsplash.com/photo-1592982537447-7440770cbfc9?auto=format&fit=crop&w=900&q=80",
+      "authorName": "NaijaAgroConnect Editorial",
+      "farmName": "Danladi Grain & Livestock Ranch",
+      "zone": "North-West",
+      "tags": ["Export", "Sesame", "Cooperatives"],
+      "featured": true,
+      "publishedAt": "2026-08-01T09:00:00Z"
+    },
+    {
+      "id": "blog-2",
+      "title": "Cold-Chain Innovation: Solar-Powered Cooling for Catfish Farmers",
+      "excerpt": "Off-grid solar cold rooms are helping South-East fish farmers cut post-harvest losses by up to 40%.",
+      "content": "Post-harvest spoilage has historically eaten into the margins of catfish farmers across Anambra and Enugu states. A new wave of solar-powered cold rooms, funded through farmer cooperatives and micro-loans, is changing that picture.\n\nEarly adopters report spoilage rates dropping from roughly 30% to under 10%, allowing them to hold stock longer and negotiate better prices with wholesale buyers instead of selling in a rush at harvest time.",
+      "coverImage": "https://images.unsplash.com/photo-1500595046743-cd271d694d30?auto=format&fit=crop&w=900&q=80",
+      "authorName": "NaijaAgroConnect Editorial",
+      "zone": "South-East",
+      "tags": ["Innovation", "Cold Chain", "Fisheries"],
+      "featured": true,
+      "publishedAt": "2026-07-20T09:00:00Z"
+    },
+    {
+      "id": "blog-3",
+      "title": "Farmer Spotlight: Idanre's Cocoa Estates Go Fully Traceable",
+      "excerpt": "Chief Mrs. Folake Adebayo's cocoa estate is piloting batch-level traceability from farm gate to export container.",
+      "content": "As European buyers tighten deforestation and traceability requirements under new import regulations, AgroGold Cocoa & Cashew Estates in Idanre, Ondo State, has begun tagging every cocoa batch with GPS-linked harvest records.\n\nThe pilot, developed with local agritech partners, lets buyers scan a QR code on each bag to see the originating farm plot, harvest date, and fermentation records — a feature increasingly demanded by export-grade cocoa buyers.",
+      "coverImage": "https://images.unsplash.com/photo-1511537190424-bbbab87ac5eb?auto=format&fit=crop&w=900&q=80",
+      "authorName": "NaijaAgroConnect Editorial",
+      "farmName": "AgroGold Cocoa & Cashew Estates",
+      "zone": "South-West",
+      "tags": ["Farmer Spotlight", "Cocoa", "Traceability"],
+      "featured": false,
+      "publishedAt": "2026-07-05T09:00:00Z"
+    }
+  ]
+}

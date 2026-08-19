@@ -1,0 +1,54 @@
+{
+  "prices": [
+    {
+      "id": 1,
+      "zonePriceId": "p2",
+      "item": "Export Grade White Yams (Large Tubers)",
+      "price": 53573,
+      "unit": "100 TUBERS",
+      "region": "North-Central",
+      "minOrder": 100,
+      "updatedAt": "2026-08-19T17:40:46.302Z"
+    },
+    {
+      "id": 2,
+      "zonePriceId": "p1",
+      "item": "Organic White Sesame Seeds (Cleaned 99.5% Purity)",
+      "price": 1535052,
+      "unit": "METRIC TON",
+      "region": "North-West",
+      "minOrder": 1,
+      "updatedAt": "2026-08-19T17:40:46.302Z"
+    },
+    {
+      "id": 3,
+      "zonePriceId": "p4",
+      "item": "Sokoto Red Goats & Balami Breeding Rams",
+      "price": 176774,
+      "unit": "HEAD",
+      "region": "North-West",
+      "minOrder": 2,
+      "updatedAt": "2026-08-19T17:40:46.302Z"
+    },
+    {
+      "id": 4,
+      "zonePriceId": "p3",
+      "item": "Idanre Grade-A Fermented Cocoa Beans",
+      "price": 4285711,
+      "unit": "METRIC TON",
+      "region": "South-West",
+      "minOrder": 1,
+      "updatedAt": "2026-08-19T17:40:46.302Z"
+    },
+    {
+      "id": 5,
+      "zonePriceId": "p5",
+      "item": "Kiln-Dried Oven Smoked Catfish (Export Sealed)",
+      "price": 29694,
+      "unit": "CARTON (5KG)",
+      "region": "South-East",
+      "minOrder": 1,
+      "updatedAt": "2026-08-19T17:40:46.302Z"
+    }
+  ]
+}
