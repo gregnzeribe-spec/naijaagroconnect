@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Building2 } from 'lucide-react';
 import { Header } from './components/Header';
 import { Marketplace } from './components/Marketplace';
 import { ZonePrices } from './components/ZonePrices';
@@ -14,6 +15,8 @@ import { NotificationModal } from './components/NotificationModal';
 import { UserVerificationModal } from './components/UserVerificationModal';
 import { AdminPriceUpdateModal } from './components/AdminPriceUpdateModal';
 import { AdminBlogModal } from './components/AdminBlogModal';
+import { LegalPolicyModal } from './components/LegalPolicyModal';
+import { AboutUs } from './components/AboutUs';
 import { useLiveFxRates } from './services/fxService';
 
 import { 
@@ -61,6 +64,7 @@ export default function App() {
   const [verificationModalOpen, setVerificationModalOpen] = useState(false);
   const [adminPriceModalOpen, setAdminPriceModalOpen] = useState(false);
   const [adminBlogModalOpen, setAdminBlogModalOpen] = useState(false);
+  const [legalPolicyModalOpen, setLegalPolicyModalOpen] = useState(false);
 
   const unreadNotificationsCount = notifications.filter((n) => !n.isRead).length;
 
@@ -308,6 +312,10 @@ export default function App() {
         {activeTab === 'blog' && (
           <Blog />
         )}
+
+        {activeTab === 'about' && (
+          <AboutUs />
+        )}
       </main>
 
       {/* Modals */}
@@ -351,16 +359,39 @@ export default function App() {
         <AdminBlogModal onClose={() => setAdminBlogModalOpen(false)} />
       )}
 
+      {legalPolicyModalOpen && (
+        <LegalPolicyModal onClose={() => setLegalPolicyModalOpen(false)} />
+      )}
+
       {/* Footer */}
       <footer className="bg-white border-t border-[#E5E9D3] text-[#588157] py-6 text-xs mt-12 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="space-y-1 text-center md:text-left">
+          <div className="flex flex-col gap-1 text-center md:text-left">
             <p className="font-serif font-bold text-[#3A5A40] text-sm">
               naijaagroconnect.com
             </p>
             <p className="text-[#588157]">
               Cross-border produce & livestock trade network across all 6 Nigerian Geopolitical Zones.
             </p>
+            <p className="text-[#A3B18A] text-[11px]">
+              Powered by EUVIDA Agro Services
+            </p>
+            <span className="inline-flex w-fit items-center gap-1 rounded-full border border-[#D8E2C3] bg-[#F0F4E8] px-2 py-1 text-[10px] font-bold uppercase tracking-wider text-[#3A5A40]">
+              <Building2 className="h-3 w-3 text-[#588157]" />
+              EUVIDA operated marketplace
+            </span>
+            <a
+              href="mailto:info@naijaagroconnect.com"
+              className="text-[#588157] text-[11px] hover:text-[#3A5A40] underline underline-offset-2"
+            >
+              Email: info@naijaagroconnect.com
+            </a>
+            <button
+              onClick={() => setLegalPolicyModalOpen(true)}
+              className="w-fit text-[#588157] text-[11px] hover:text-[#3A5A40] underline underline-offset-2"
+            >
+              Terms & Conditions / Policy
+            </button>
           </div>
 
           <div className="flex flex-wrap items-center gap-4 text-[10px] uppercase tracking-wider font-bold text-[#A3B18A]">

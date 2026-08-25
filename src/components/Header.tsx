@@ -16,7 +16,8 @@ import {
   UserCheck, 
   Sparkles,
   ShoppingBag,
-  Newspaper
+  Newspaper,
+  Building2
 } from 'lucide-react';
 import { LanguageCode, CurrencyCode } from '../types';
 import { LANGUAGES, t } from '../services/languageService';
@@ -63,6 +64,7 @@ export const Header: React.FC<HeaderProps> = ({
     { id: 'shipments', label: t('tabShipments', selectedLang), icon: Truck },
     { id: 'ai-advisory', label: t('tabAIAssistant', selectedLang), icon: Sparkles },
     { id: 'blog', label: t('tabBlog', selectedLang), icon: Newspaper },
+    { id: 'about', label: 'About EUVIDA', icon: Building2 },
   ];
 
   const currencies: CurrencyCode[] = ['NGN', 'USD', 'EUR', 'GBP', 'USDT', 'eNaira'];
@@ -75,6 +77,10 @@ export const Header: React.FC<HeaderProps> = ({
           <span className="flex items-center text-[#3A5A40] font-semibold bg-[#F0F4E8] px-2.5 py-0.5 rounded-full border border-[#D8E2C3] text-[11px] whitespace-nowrap">
             <ShieldCheck className="w-3.5 h-3.5 mr-1 text-[#588157]" />
             {t('escrowProtected', selectedLang)}
+          </span>
+          <span className="hidden md:flex items-center text-[#3A5A40] font-semibold bg-[#F0F4E8] px-2.5 py-0.5 rounded-full border border-[#D8E2C3] text-[11px] whitespace-nowrap">
+            <Building2 className="w-3.5 h-3.5 mr-1 text-[#588157]" />
+            EUVIDA operated
           </span>
           <span className="hidden md:inline text-[#A3B18A]">•</span>
           <span className="hidden md:inline text-[#3A5A40] font-medium whitespace-nowrap">
