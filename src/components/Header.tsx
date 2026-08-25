@@ -76,7 +76,7 @@ export const Header: React.FC<HeaderProps> = ({
         <div className="flex items-center space-x-3 text-[#588157] overflow-x-auto scrollbar-none py-1">
           <span className="flex items-center text-[#3A5A40] font-semibold bg-[#F0F4E8] px-2.5 py-0.5 rounded-full border border-[#D8E2C3] text-[11px] whitespace-nowrap">
             <ShieldCheck className="w-3.5 h-3.5 mr-1 text-[#588157]" />
-            {t('escrowProtected', selectedLang)}
+            Escrow-enabled checkout
           </span>
           <span className="hidden md:flex items-center text-[#3A5A40] font-semibold bg-[#F0F4E8] px-2.5 py-0.5 rounded-full border border-[#D8E2C3] text-[11px] whitespace-nowrap">
             <Building2 className="w-3.5 h-3.5 mr-1 text-[#588157]" />
@@ -84,11 +84,11 @@ export const Header: React.FC<HeaderProps> = ({
           </span>
           <span className="hidden md:inline text-[#A3B18A]">•</span>
           <span className="hidden md:inline text-[#3A5A40] font-medium whitespace-nowrap">
-            🇳🇬 All 6 Geopolitical Zones Covered (NW, NE, NC, SW, SE, SS)
+            🇳🇬 All 6 Geopolitical Zones Connected (NW, NE, NC, SW, SE, SS)
           </span>
           <span className="hidden lg:inline text-[#A3B18A]">•</span>
           <span className="hidden lg:inline text-[#3A5A40] font-medium whitespace-nowrap">
-            ✈️ Cross-Border & Diaspora Logistics Ready
+            ✈️ Cross-Border & Diaspora Logistics Support
           </span>
         </div>
 

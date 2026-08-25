@@ -395,9 +395,9 @@ export default function App() {
           </div>
 
           <div className="flex flex-wrap items-center gap-4 text-[10px] uppercase tracking-wider font-bold text-[#A3B18A]">
-            <span>🔒 Crypto/Fiat Escrow Protected</span>
-            <span>🇳🇬 NIN/BVN Identity Synchronized</span>
-            <span>✈️ DEFRA / FDA Export Compliant</span>
+            <span>🔒 Escrow-Enabled Checkout</span>
+            <span>🇳🇬 NIN/BVN Verification Available</span>
+            <span>✈️ Export Documentation Support</span>
             <button
               onClick={() => setAdminPriceModalOpen(true)}
               className="normal-case tracking-normal font-medium text-[#A3B18A] hover:text-[#3A5A40] underline underline-offset-2"
